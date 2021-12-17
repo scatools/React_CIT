@@ -1,0 +1,71 @@
+.header {
+	text-align: center;
+}
+
+#root {
+	height: 100vh;
+}
+
+#sidebar {
+	/* don't forget to add all the previously mentioned styles here too */
+	color: #fff !important;
+	width: 30%;
+	background-color: #37383f;
+}
+
+.my-sidebar-header {
+	display: flex;
+	margin: 5px;
+	padding: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.my-sidebar-content {
+	padding: 10px;
+}
+
+.my-sidebar-component {
+	padding: 10px;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+	height: 94.2%;
+	align-items: stretch;
+}
+
+.page-item.active .page-link {
+	color: #fff;
+	background-color: #bdc0c3 !important;
+	border-color: #bdc0c3 !important;
+}
+
+.page-item .page-link {
+	color: #6e6f70;
+}
+
+#map_table_contianer {
+	position: absolute;
+	z-index: 500;
+	top: 10%;
+	right: 5%;
+	width: 30%;
+	background-color: white;
+	max-height: 60%;
+	overflow-y: scroll;
+  /* border: 1px solid gray; */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#map_table_contianer::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+#map_table_contianer::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.2);
+}
